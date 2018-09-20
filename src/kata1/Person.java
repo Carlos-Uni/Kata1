@@ -28,7 +28,7 @@ public class Person {
         return birthdate;
     }
 
-    public int GetAge(){
-        return (int)((new Date().getTime() - birthdate.getTime()/31536000000L));
+    public int getAge(){
+        return (int) ((new Date().getTime() - birthdate.getTime())/31536000000L);
     }
 }
